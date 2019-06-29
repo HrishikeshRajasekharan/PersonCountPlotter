@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: Asap, sans-serif;
+    color: #008080	;
+}
+
+.main {
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#e5fff6, #ffffff);
+    font-family: Asap, sans-serif;
+    color: #008080;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 2.3%;
+    margin-right: 0.52%;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #008080	;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: 10px;
+    transition: 0.35s ease;
+}
+
+ul li button {
+    text-decoration: none;
+    color: #008080	;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: 10px;
+    transition: 0.35s ease;
+}
+
+ul li button:hover {
+    background-color: #008080;
+    color: white;
+} 
+
+ul li a:hover {
+    background-color: #008080;
+    color: white;
+} 
+
+.current-count {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.visual {
+    position: absolute;
+    
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    text-align: center;
+    margin-top: 5%;
+}
+
+hr {
+    color: #008080;
+}
+
+
+
